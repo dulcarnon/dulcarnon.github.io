@@ -1,9 +1,9 @@
 ul {
-  padding-top: 0.8em;
+  padding-top: 1em;
   list-style-type: none;
 }
 
-ul li ul {
+li ul {
   padding-top: 0.4em;
 }
 
