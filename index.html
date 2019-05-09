@@ -2,10 +2,7 @@
 <head>
   <title>Concordia bookmarklets</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
-	<script src="https://static1.worldcat.org/wcpa/jsj/N1910333470/bundles/top-min.js"></script>
+
 <head>
 <body>
 <h1>Some bookmarklets for Concordia</h1>
@@ -39,19 +36,5 @@
 </ul>
 
 
-
-<div id="buyit-section" style="display: block;">
-<span class="spinner"></span><span id="loadbuyit">Checking...</span>
-
-</div>
-<script type="text/javascript">
-    jQuery(window).load(function(){
-
-        var ajaxBuyingServiceUrl = "/wcpa/servlet/org.oclc.lac.ui.buying.AjaxBuyingLinksServlet";
-        jQuery("#buyit-section").buyitLinksWidget({'serviceUrl' : ajaxBuyingServiceUrl, 'oclcNumber': 951123058, 'page': 'detail'});
-
-    });
-</script>
-<script type="text/javascript" language="JavaScript">
 
 </body>
