@@ -1,3 +1,8 @@
+body {
+  margin: 1em;
+  font-family: courier, fixed-width;
+}
+
 ul {
   padding-top: 1em;
   list-style-type: none;
@@ -10,12 +15,4 @@ li ul {
 li {
   padding-top: 0.2em;
   padding-bottom: 0.4em;
-}
-
-#platform-buyit {
-    float: right;
-    width: 200px;
-    margin: 0 0 8px 20px;
-    border: 1px solid #CCCCCC;
-    box-shadow: -1px 1px 5px 0px #CCCCCC;
 }
